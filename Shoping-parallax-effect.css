@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+#Shoping-parallax-effect {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+#parallax h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#parallax h2 {
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+#parallax h3 {
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 8px;
+}
+
+#parallax p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.first-character {
+    font-weight: 400;
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.sc {
+    color: #3b8595;
+}
+
+.ny {
+    color: #3d3c3a;
+}
+
+.atw {
+    color: #c48660;
+}
+
+#parallax .title {
+    background: #fff;
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#parallax .title h1 {
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+
+#parallax .block {
+    background: #fff;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#parallax .parallax-one {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(img/photo-1575939238474-c8ada13b2724.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#parallax .parallax-two {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(img/india-mahon-close-up.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#parallax .parallax-three {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(img/girl-1990347_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
